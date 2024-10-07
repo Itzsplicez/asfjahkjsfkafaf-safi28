@@ -45,10 +45,10 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    address: extreme4m5n.creepercloud.io:25977
+    address: extreme4m5n.creepercloud.io:25871
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
   skyblock:
-    address: extreme4m5n.creepercloud.io:26116
+    address: extreme4m5n.creepercloud.io:26154
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
