@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&7// &cDreadPixel Network &7//'
+  motd: '"&4&l&m--&9&8&l[&r &c&lDreadpixel Network &8&l]&4&l&m--&8&l[ &fSeason 1 &8&l]&4&l&m-----&4&l&m ---&8&l[ &fNEWS: &bBeta Testing                             &8&l ]&4&m----&8&l[&r &4         &l 🎃 &a&lSKYBLOCK &d&lKITPVP &6&lEVENTS 🎃         &8&l ]&4&m----&8&l[&r &4&r\n"'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
