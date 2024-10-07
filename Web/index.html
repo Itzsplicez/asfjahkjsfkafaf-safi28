@@ -1,1 +1,83 @@
-e
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreadPixel Network</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: 'Minecraft', sans-serif; /* Minecraft font */
+            color: white; /* Sets default text color to white */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes at least full viewport height */
+        }
+        h1 {
+            font-size: 5rem;
+            text-shadow: 4px 4px 8px #000;
+            margin-top: 30px;
+        }
+        .description {
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .ip-address {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            cursor: pointer; /* Adds pointer cursor to indicate clickability */
+            text-shadow: 2px 2px 5px #000;
+        }
+        a {
+            color: white !important; /* Ensures links are white */
+            text-decoration: none; /* Removes underline from the links */
+        }
+        footer {
+            margin-top: auto; /* Pushes footer to the bottom */
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent dark background */
+            padding: 10px 0;
+            font-size: 0.75rem;
+            position: relative; /* Ensure it is positioned relative to the body */
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert("Copied: " + text); // Display an alert when copied
+            }, function(err) {
+                console.error('Async: Could not copy text: ', err);
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>DreadPixel Network</h1>
+    <div class="description">
+        <p>Welcome to DreadPixel! Dive into our exciting gameplay with modes like <strong>Skyblock</strong> where you can build your own island and thrive, 
+        <strong>KitPvP</strong> for intense battles with friends, and engaging <strong>Events</strong> that keep the excitement alive! Join our community and experience 
+        the thrill of survival, competition, and fun!</p>
+    </div>
+    
+    <div class="ip-address" onclick="copyToClipboard('play.dreadpixel.xyz')">Java: play.dreadpixel.xyz</div>
+    <div class="ip-address" onclick="copyToClipboard('wss://play.dreadpixel.xyz')">Eaglercraft: wss://play.dreadpixel.xyz</div>
+    
+    <footer>
+        <div class="footer-links">Discord: <a href="https://discord.gg/aE77keyySY">discord.gg/aE77keyySY</a></div>
+        <div>Copyright 2024 DreadPixel</div>
+    </footer>
+</body>
+</html>
