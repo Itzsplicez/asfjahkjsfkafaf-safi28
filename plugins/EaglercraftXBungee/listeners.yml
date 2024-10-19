@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '"&4&l&m--&9&8&l[&r &c&lDreadpixel Network &8&l]&4&l&m--&8&l[ &fSeason 1 &8&l]&4&l&m-----&4&l&m ---&8&l[ &fNEWS: &bBeta Testing                             &8&l ]&4&m----&8&l[&r &4         &l 🎃 &a&lSKYBLOCK &d&lKITPVP &6&lEVENTS 🎃         &8&l ]&4&m----&8&l[&r &4&r\n"'
+  - '"&c&lDREADPIXEL &f[1.8-1.20] &a❖ Skyblock &6Halloween &6Event! &f| &a✦ Limited Event ✦  &b  Beta Release &f| &7play.dreadpixel.xyz&r\n"'
   allow_motd: true
   allow_query: true
   request_motd_cache:
