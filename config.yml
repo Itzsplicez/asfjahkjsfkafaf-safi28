@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '"&c&lDREADPIXEL &f[1.8-1.20] &a❖ Skyblock &6Halloween &6Event! &f| &a✦ Limited Event ✦  &b  Beta Release &f| &7play.dreadpixel.xyz&r\n"'
+  motd: '&c&lDREADPIXEL &f[1.8-1.20] &a❖ Skyblock &6Halloween &6Event! &f| &a✦ Limited Event ✦  &b  Beta Release &f| &7play.dreadpixel.xyz&r\n'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -49,6 +49,6 @@ servers:
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
   skyblock:
-    address: extreme4m5n.creepercloud.io:26272
+    address: extreme4m5n.creepercloud.io:25938
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
