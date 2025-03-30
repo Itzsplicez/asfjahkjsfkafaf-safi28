@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&c&lDREADPIXEL &f[1.8-1.20] &a❖ Skyblock &6Halloween &6Event! &f| &a✦ Limited Event ✦  &b  Beta Release &f| &7play.dreadpixel.xyz&r\n'
+  - '&D&lDREADPIXEL &f[1.8-1.20] &b&lRelease &f| &7dreadpixel.aifos.cl&r\n'
   allow_motd: true
   allow_query: true
   request_motd_cache:
