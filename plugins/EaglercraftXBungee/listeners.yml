@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&D&lDREADPIXEL &f[1.8-1.20] &b&lRelease &f| &7dreadpixel.aifos.cl&r\n'
+  - '&D&lDREADPIXEL &f[1.8-1.20] &b&lRelease &f| &7dreadpixel.aifos.cl'
   allow_motd: true
   allow_query: true
   request_motd_cache:
