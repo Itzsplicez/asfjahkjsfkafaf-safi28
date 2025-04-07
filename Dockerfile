@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
-    openjdk-21-jdk \
+    openjdk-11-jdk \
     && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 25565 8081 443 8443 22
