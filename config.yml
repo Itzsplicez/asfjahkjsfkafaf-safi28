@@ -45,7 +45,7 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    address: bp66-de4.creepercloud.io:25708
+    address: dynamic-9.magmanode.com:25684
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
   skyblock:
